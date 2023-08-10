@@ -1,38 +1,71 @@
-.App {
-  text-align: center;
+/* start game css */
+*{
+  margin: 0;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body{
+font-family: "popins" , sans-serif;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.btn1{
   color: white;
-}
+  padding: 10px 18px;
+  background: #000;
+  border-radius: 5px;
+  min-width: 220px;
+  border: none;
+  margin-left: 74%;
+  margin-top: 20px;
+  font-size: 16px;
+  border: 1px solid transparent;
+  transition: 0.4s background ease-in;
 
-.App-link {
-  color: #61dafb;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.btn1:hover{
+  background-color: white;
+  border: 1px solid black;
+  color: #000;
+  transition: 0.3s background ease-in;
+  cursor: pointer;
+}
+.main1{
+  /* max-width: 1180px; */
+  display: flex;
+  margin: 0 auto;
+  align-items: center;
+  /* height: 100vh; */
+}
+.head1{
+  font-size: 96px;
+  white-space: nowrap;
+  margin-left: 18%;
+}
+.img1{
+margin-top: 80px;
+margin-left: -10%;
+}
+@media(max-width:768px){
+  .main1{
+     display: flex;
+      flex-wrap: wrap;
+      margin: auto;
+      margin-top: 10px;
+      align-items: center;
   }
-  to {
-    transform: rotate(360deg);
+  .img1{
+    margin-top: 80px;
+    margin-left: 65px;
+  }
+  .pic1{
+    /* border: 1px solid black; */
+    width: 327px;
+    height: 315px;
+    margin-left: -34px;
+  }
+  .head1{
+    font-size: 53px;
+
+    margin-top: 90px;
+  }
+  .btn1{
+    margin-left: 29%;
   }
 }
