@@ -1,5 +1,6 @@
 import React from 'react'
 import pic from '../Images/dices 1.png'
+import '../App.css'
 
 function Startgame({toggle}) {
   return (

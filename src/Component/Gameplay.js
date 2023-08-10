@@ -16,7 +16,7 @@ const Gameplay = () => {
 
     const Roldice = () => {
         if(!selectedNumber){
-            setError("You have  not  selected any number")
+            setError("You have not selected any number")
         return;
         } 
         setError("");
